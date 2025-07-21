@@ -1,0 +1,194 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    padding-bottom: 20px;
+}
+
+nav img{
+    width: 64px;
+    height: 64px;
+}
+nav h1 {
+    margin-bottom: 40px;
+    font-size: 46px;
+}
+p.number{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.397);
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+.form{
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+}
+.container-small{
+    margin: 0 auto;
+    width: 60%;
+    max-width: 35rem;
+
+}
+nav button {
+    border: 1px solid rgb(165, 42, 42);
+    background-color: transparent;
+    padding: 4px 16px;
+    margin: 40px 40px;
+    
+}
+
+nav button:hover {
+    color: white;
+    background-color: rgb(60, 58, 71);
+    border-color: rgb(60, 58, 71)
+}
+
+.intro p {
+    padding: 40px;
+}
+
+.gallery {
+    background-color: #dbfdaf;
+    padding: 50px;
+
+
+}
+
+#chairshop img {
+    height: 480px;
+    width: 320px;
+
+}
+
+#chairshop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: start;
+}
+
+#chairshop p{
+    padding-top: 8px;
+}
+
+.store {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+.store a {
+    text-decoration: none;
+    color: brown;
+    font-weight: solid;
+}
+
+.form {
+     background-color: rgba(50, 68, 71, 1);
+       
+}
+.form div{
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+
+form label{
+    color: white;
+    display: block;
+    letter-spacing: 2px;
+    text-align: start;
+    margin-bottom: 4px;
+      
+}
+
+form input,
+form textarea{
+    background-color: rgba(255, 255, 255, .1);
+    border: none;
+    padding: 1px;
+    width: 100%;
+    color: white;
+    resize: none;
+   
+}
+form input :focus,
+form textarea :focus{
+    outline: none;
+    background-color: rgba(255, 255, 255, .2);
+
+}
+.form button{
+    padding: 4px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background : transparent;
+    color: white;
+    border: 1px solid,rgba(255, 255, 255, .8);
+    width: 100%;
+}
+.form button :hover{
+    color: black;
+    background-color: white;
+}
+form p{
+    color: white;
+    font-size: small;
+}
+.contact{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.contact p{
+    margin-bottom: 20px;
+}
+.contact span{
+    font-weight: bold;
+}
+header p{
+    font-weight: lighter;
+}
+.contact img{
+    width: 32px;
+    height: 32px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+.footer{
+    margin: 20px;
+}
+.footer span{
+    color: brown;
+}
+@media (max-width:1200px)  {
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    #chairshop{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container-small{
+        text-align: justify;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+}
