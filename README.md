@@ -2,7 +2,8 @@ LANDING PAGE :
 
 a landing page for a chair shop.
 
-Technologies.
+Technologies:
+
 HTML
 CSS
 
